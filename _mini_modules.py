@@ -10,3 +10,16 @@ def factorDB(number):
     list_prime = [ int(prime.split('</font>')[0]) for prime in list_prime]
 
     return list_prime, len(list_prime) > 1
+    
+def iroot(x, n):
+        """Return (y, b) where y is the integer nth root of x and b is True if y is exact."""
+        if x == 0:
+            return x, True
+
+        k = (x.bit_length() - 1) // n
+        y = 1<<k
+        for i in range(k-1, -1, -1):
+            z = y | 1<<i
+            if z**n <= x:
+                y = z
+        return y, x == y**n 
