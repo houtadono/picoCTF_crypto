@@ -11,7 +11,6 @@ def decryptRot(cipher,rot):
             c-=rot
             if c<97: c+=26    
         result.append(chr(c))
-
     return "".join(result)
 
 cipherText = "cvpbPGS{arkg_gvzr_V'yy_gel_2_ebhaqf_bs_ebg13_GYpXOHqX}"

@@ -14,3 +14,6 @@ for prime in list_prime:
 d = inverse(e,phi)
 message = pow(c,d,n)
 print(long_to_bytes(message).decode()) # picoCTF{sma11_N_n0_g0od_23540368}
+
+from _mini_modules import decryptRSA
+print(decryptRSA(c,e,n))
