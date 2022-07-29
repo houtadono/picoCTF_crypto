@@ -63,3 +63,28 @@ def decryptRSA(c = cipherText,e = publicKey, n = module):
     message = pow(c,d,n)
     return long_to_bytes(message).decode()
 
+def decryptMonoAlphabetSubstitution(c,key):
+    #  if have key: convert the characters contained in the corresponding key in the alphabet
+    #  if no : create key based on frequency
+    alphabet =  'abcdefghijklmnopqrstuvwxyz'.upper()
+    if key == "": 
+        # find KEY = the frequency of occurrence of letters in the ciphertext
+        alphabet = 'abcdefghijklmnopqrstuvwxyz'.upper()
+        text = str(c).upper()
+        lis = []
+        for i in alphabet:
+            j = text.count(i)
+            lis.append([ord(i),j])
+        sorted_lis = sorted(lis,reverse=True,key=lambda kv:kv[1])
+        key =  "".join([chr(i[0]) for i in sorted_lis])
+        alphabet = 'ETAOINSHRLDCUMWFGYPBVKJXQZ' # len = 26, according to decreasing probability, can be checked online
+        
+    dic = dict(zip(key.upper(),alphabet))
+    plain = ""
+    for i in c:
+        if str(i).isalpha():
+            if str(i).islower(): i = str(dic[str(i).upper()]).lower()
+            else: i = dic[str(i)]
+        plain+=i
+    return plain
+
