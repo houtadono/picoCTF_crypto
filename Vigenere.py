@@ -12,7 +12,10 @@ table = []
 for i in range(26):
     table.append(encryptRot(alphabet,i))
 
-# decrypt
+# decrypt:
+# cipher R, Key C -> plain P  
+#     P
+# C   R  
 plaintext = ""
 for i in range(len(ciphertext)):
     j = ciphertext[i]
