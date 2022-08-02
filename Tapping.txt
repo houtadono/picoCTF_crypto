@@ -1,0 +1,4 @@
+i recv: .--. .. -.-. --- -.-. - ..-. { -- ----- .-. ... ...-- -.-. ----- -.. ...-- .---- ... ..-. ..- -. ..--- -.... ---.. ...-- ---.. ..--- ....- -.... .---- ----- }
+it maybe be morse code
+
+using web tool decode morse code flag: PICOCTF{M0RS3C0D31SFUN2683824610}

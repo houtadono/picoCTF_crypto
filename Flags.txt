@@ -1,0 +1,3 @@
+first char in each International maritime signal flags is flag
+https://en.wikipedia.org/wiki/International_maritime_signal_flags
+PICOCTF{F1AG5AND5TUFF}
