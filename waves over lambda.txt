@@ -1,0 +1,17 @@
+ciphertext:
+-------------------------------------------------------------------------------
+orusknzh wiki ph trck emns - ekijciuot_ph_o_rqik_mnlagn_guqzekzntc
+-------------------------------------------------------------------------------
+yi yiki urz lcow lrki zwnu n jcnkzik re nu wrck rcz re rck hwpb zpmm yi hny wik hpuf, nug zwiu p cugikhzrrg erk zwi epkhz zpli ywnz ynh linuz at n hwpb ercugikpus pu zwi hin.  p lchz nofurymigsi p wng wnkgmt itih zr mrrf cb ywiu zwi hinliu zrmg li hwi ynh hpufpus; erk ekrl zwi lrliuz zwnz zwit knzwik bcz li puzr zwi arnz zwnu zwnz p lpswz ai hnpg zr sr pu, lt winkz ynh, nh pz yiki, ging ypzwpu li, bnkzmt ypzw ekpswz, bnkzmt ypzw wrkkrk re lpug, nug zwi zwrcswzh re ywnz ynh tiz aierki li.
+
+using web: https://www.boxentriq.com/code-breaking/cipher-identifier
+and select Monoalphabetic Substitution Cipher
+
+plaintext:
+-------------------------------------------------------------------------------
+congrats here is your flag - frequency_is_c_over_lambda_dnvtfrtayu 
+-------------------------------------------------------------------------------
+we were not much more than a quarter of an hour out of our ship till we saw her sink and then i understood for the first time what was meant by a ship foundering in the sea i must acknowledge i had hardly eyes to look up when the seamen told me she was sinking for from the moment that they rather put me into the boat than that i might be said to go in my heart was as it were dead within me partly with fright partly with horror of m
+
+
+Flag:  frequency_is_c_over_lambda_dnvtfrtayu 
